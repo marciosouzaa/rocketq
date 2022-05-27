@@ -10,4 +10,6 @@ server.set('views', path.join(__dirname, 'views'))
 
 server.use(express.urlencoded({ extended: true }))
 server.use(route)
-server.listen(5000, () => console.log('RODANDO'))
+
+const PORT = process.env.PORT || 5000;
+server.listen(PORT, () => console.log('Listening on port ' + PORT))

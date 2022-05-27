@@ -1,6 +1,8 @@
 # rocketq
 
-formulario rocketq
+Rocketq Questions é uma plataforma de perguntas em salas privadas com senha para entrar, o administrador da respectiva sala pode verificar as perguntas como lidas ou então apagar.
+
+https://rocketquestions1.herokuapp.com/
 
 ## Para rodar esse projeto
 
